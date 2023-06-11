@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlos Bohorquez</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="inicio">
+    <header>
+      <img id="logo" src="img/logo.jpg" alt="" />
+
+      <!-- Navbar -->
+      <nav>
+        <a class="categoria" href="#inicio">Inicio</a>
+        <a class="categoria" href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio">
+        <div id="foto" class="image-container">
+          <img src="img/perfil.jpg" id="myImage" />
+        </div>
+
+        <h2>Hola! Soy Carlos Bohorquez</h2>
+        <p>
+          Soy colombiano y hace aproximadamente 8 años que decidí emprender una
+          nueva aventura y trasladarme a Buenos Aires. Desde entonces, he
+          disfrutado de la vida en esta vibrante ciudad, con su cultura rica y
+          diversa, su gente amable y sus hermosos paisajes. En este tiempo, he
+          tenido la oportunidad de explorar distintos aspectos de la vida
+          argentina, como su gastronomía, su música y sus tradiciones. Además,
+          he aprendido mucho sobre el idioma español y me he sumergido en la
+          cultura local.
+        </p>
+        <a id="button" href="cv.pdf">Descargar CV</a>
+      </section>
+      <hr />
+      <br />
+      <br />
+      <section id="contacto">
+        <h2>Hablemos!</h2>
+        <p>
+          "¡Hola! Gracias por visitar mi perfil y conocer más sobre mí. Si te
+          gusta lo que ves, no dudes es descargar mi CV.
+        </p>
+      </section>
+      <section class="contenedor">
+        <div class="iconos-contenedor">
+          <a href="mailto:alejo15084@gmail.com">
+            <img class="iconos" src="img/mail.png" alt="" />
+          </a>
+
+          <a href="https://github.com/owakester">
+            <img class="iconos" src="img/github.png" alt="" />
+          </a>
+
+          <a href="https://www.linkedin.com/in/carlos-bohorquez-r-17746671/">
+            <img class="iconos" src="img/linkedin.png" alt="" />
+          </a>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <h2>Mis Habilidades</h2>
+        <div class="skill-container">
+          <div class="skill-column">
+            <div class="skill-bar">
+              <div class="skill-html">HTML</div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-css">CSS</div>
+            </div>
+            <!-- Agrega más habilidades aquí -->
+          </div>
+          <div class="skill-column">
+            <div class="skill-bar">
+              <div class="skill-js">JavaScript</div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-ux">UX Design</div>
+            </div>
+            <!-- Agrega más habilidades aquí -->
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Escribeme</h2>
+        <div class="container">
+          <form
+            target="_blank"
+            action="https://formsubmit.co/alejo15084@gmail.com"
+            method="POST"
+          >
+            <label for="fname">Primer nombre</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Tu nombre.."
+            />
+
+            <label for="lname">Segundo nombre</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Tu apellido.."
+            />
+
+            <label for="subject">Mensaje</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Comentanos algo"
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>Codigo Latam</footer>
+
+    <!-- La estructura básica y la vinculación con CSS están listas. A codear! 💪  -->
+    <!-- En este archivo escriban su HTML -->
+    <script src="app.js"></script>
+  </body>
+</html>
